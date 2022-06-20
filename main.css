@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Navbar */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar a{
+    align-items: center;
+}
+
+/* nav items */
+
+.nav-items img{
+    height: 100px;
+    width: 150px;
+}
+
+.nav-items{
+    align-content: center;
+}
+
+.nav-items a{
+    text-decoration: none;
+    padding: 12px 10px;
+    font-size: small;
+    color: gray;
+}
+
+.nav-items a i{
+    margin-left: 7px;
+}
+
+.nav-items a:hover{
+    color: black;
+    text-decoration: underline;
+    transition: ease-in-out 0.1s;
+}
+
+/* search and cart */
+
+.nav-items-right{
+    margin-right: 1.5rem;
+}
+
+.nav-items-right a{
+    color: black;
+    text-decoration: none;
+    font-size: small;
+}
+
+.nav-items-right a{
+    padding: 8px 6px;
+    text-align: center;
+}
+
+.nav-items-right i{
+    justify-self: center;
+    font-size: larger;
+}
+
+/* slider */
+
+.carousel-item img{
+    height: 142px;
+    width: 142px;
+}
+
+/* container */
+
+.container{
+    padding: 50px 40px 50px;
+}
+
+
+/* Incense */
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
